@@ -81,8 +81,8 @@ class App extends React.Component {
             </div>
           </center>
         </div>
-        <footer className="footer mt-auto py-3 bg-white">
-          <p className="text-center font-weight-bolder m-1">Designed by Manish Choudhary</p>
+        <footer className="footer mt-auto py-3 align-bottom">
+          <p className="text-center font-weight-bolder m-1 p-2 bg-white">Designed by Manish Choudhary</p>
         </footer>
       </div>
     )
