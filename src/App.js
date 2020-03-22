@@ -58,7 +58,7 @@ class App extends React.Component {
           <br/>
           <center>
             <div class="input-group mb-3">
-              <input required type="text" value={this.state.newItem} class="form-control" placeholder="Write a TODO" aria-label="Recipient's username" aria-describedby="button-addon2" onChange={e => this.updateInput(e.target.value)}/>
+              <input required type="text" value={this.state.newItem} class="form-control" placeholder="Write a ToDo" aria-label="Recipient's username" aria-describedby="button-addon2" onChange={e => this.updateInput(e.target.value)}/>
               <div class="input-group-append">
                 <button disabled={!this.state.newItem.length} onClick={() => this.addItem(this.state.newItem)} class="btn btn-light" type="button" id="button-addon2">Add ToDo</button>
               </div>
