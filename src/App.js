@@ -53,14 +53,14 @@ class App extends React.Component {
     return(
       <div>
         <img src={logo} className="rounded mx-auto d-block" height="100" width="100"></img>
-        <h1 className="text-center text-white">My Todo App</h1>
+        <h1 className="text-center text-white">My ToDo App</h1>
         <div className="container">
           <br/>
           <center>
             <div class="input-group mb-3">
               <input required type="text" value={this.state.newItem} class="form-control" placeholder="Write a TODO" aria-label="Recipient's username" aria-describedby="button-addon2" onChange={e => this.updateInput(e.target.value)}/>
               <div class="input-group-append">
-                <button disabled={!this.state.newItem.length} onClick={() => this.addItem(this.state.newItem)} class="btn btn-light" type="button" id="button-addon2">Add TODO</button>
+                <button disabled={!this.state.newItem.length} onClick={() => this.addItem(this.state.newItem)} class="btn btn-light" type="button" id="button-addon2">Add ToDo</button>
               </div>
             </div>
             <div className="container">
